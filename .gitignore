@@ -1,0 +1,4 @@
+*bower.json
+*.map
+.bowerrc
+*.npmignore
