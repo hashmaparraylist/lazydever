@@ -11,9 +11,6 @@
     <link href="./app/components/font-awesome/css/font-awesome.css" rel="stylesheet">
     <!-- customize -->
     <link href="./assets/css/style.css" rel="stylesheet">
-    <!-- jQuery -->
-    <script src="./app/components/jquery/dist/jquery.js"></script>
-    <script src="./app/components/jquery/plugin/jquery.arbitrary-anchor.js"></script>
 </head>
 <body>
     <!-- navigation -->
@@ -32,28 +29,38 @@
 
         <h5>------ WELCOME TO MY HOMEPAGE ------</h5>
         <!-- profile -->
+        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         <div class="row profile">
             <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 border">
 			    <div class="header">
-			        <h3>ABOUT ME</h3>
+			        <h3 id="name">Seabastian Qu</h3>
 			    </div>
-                <div class="modal-body" style="text-align:center;">
+                <div class="body" style="text-align:center;">
                     <div class="row-fluid">
 			            <div class="span10 offset1">
-                            <img src="https://cdn.shopify.com/s/files/1/0051/4802/products/hoodie-1_1024x1024.png?v=1374083661" name="aboutme" width="140" height="140" border="0" class="img-circle" alt="aboutme">
-                            <br>
-                            <br>
-                            <h3 class="media-heading">
-                                <label class="name">Lazy Dever</label>
-                                <small>USA</small>
-                            </h3>
+                            <img src="" name="aboutme" width="140" height="140" border="0" class="img-circle" alt="aboutme">
                             <hr>
-                            <center>
-                                <p class="text-left bio">
-                                    <strong>Bio: </strong><br>
+                            <p class="text-left">
+                                <label>Experience: </label>
+                                <span id="experince">10 years+</span>
+                            </p>
+                            <p class="text-left">
+                                <label>Bio: </label><br>
+                                <span id="bio">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.
-                                </p>
-                            </center>
+                                </span>
+                            </p>
+                            <ul class="status">
+                                <li class="line">
+                                    <a href="https://github.com/cmizony?tab=repositories" target="_top"><strong>10</strong>Repos</a>
+                                </li>
+                                <li class="line">
+                                    <a href="https://gist.github.com/cmizony" target="_top"><strong>7</strong>Gists</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/cmizony/followers" target="_top"><strong>32</strong>Followers</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -62,7 +69,7 @@
 
         <!-- lastest projects -->
         <div class="row projects">
-            <div class="col-sm-6 col-md-4 project">
+            <div class="col-sm-6 col-md-3 project">
                 <div class="thumbnail">
                     <a href="https://github.com/cmizony/robotic-spider" target="_blank">
                         <img src="http://cmizony.com/img/portfolio/p6.png" alt="">
@@ -79,14 +86,11 @@
 
         <!-- skill -->
         <div class="row">
-
-        </div>
-    <!-- github card -->
-        <div class="row">
-        </div>
-    <!-- contact me -->
-        <div class="row">
         </div>
     </div>
 </body>
+<!-- jQuery -->
+<script src="./app/components/jquery/dist/jquery.js"></script>
+<script src="./app/components/jquery/plugin/jquery.arbitrary-anchor.js"></script>
+<script src="./assets/js/common.js"></script>
 </html>

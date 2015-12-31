@@ -94,11 +94,52 @@ a:hover,a:active,a:focus {
   box-shadow: rgba(0,0,0,.14) 0 1px 3px;
 }
 
-.profile .border .header {
+.profile .header {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.profile .body {
+    position: relative;
+    padding: 15px;
+}
+
+.profile .body .status {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #707070;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  zoom: 1;
+}
+
+.profile .body .status li {
+  width: 33%;
+  float: left;
+  padding: 8px 0;
+}
+.profile .body .status .line {
+  box-shadow: 1px 0 0 #eee;
+}
+
+.profile .body .status a {
+  color: #707070;
+  text-decoration: none;
+}
+
+.profile .body .status strong {
+  display: block;
+  color: #292f33;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 /* ======== Profile End ======== */
+.projects {
+  padding: 30px
+}
 
 /* ======== Projects Begin ======== */
 /* ======== Projects End ======== */
