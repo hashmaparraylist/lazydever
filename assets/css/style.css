@@ -1,13 +1,14 @@
 body {
   /*background-color: #0f0f0f;*/
+  background-image: url('../img/background.png'); 
 }
 
 a {
-    color:#666;
+    color:#e5e5e5;
 }
 
 a:hover {
-  color:#666;
+  color:#e5e5e5;
   text-decoration:none;
 }
 
@@ -21,12 +22,18 @@ a:hover,a:active,a:focus {
 }
 */
 
+.container h5 {
+  text-align: center;
+  color: #e5e5e5;
+}
+
 /* ======== Navigation Begin ======== */
 .navigation {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
-  z-index: 10000
+  z-index: 10000;
+  background-color: #ffffff;
 }
 
 .navigation .nav-bars {
@@ -74,7 +81,31 @@ a:hover,a:active,a:focus {
 
 /* ======== Navigation End ======== */
 
-.borderline {
-  border: 2px solid #e3e3e3;
-  border-radius: 5px
+
+/* ======== Profile Begin ======== */
+.profile {
+  padding: 15px
 }
+
+.profile .border {
+  background-color: white;
+  border: 2px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,.14) 0 1px 3px;
+}
+
+.profile .border .header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* ======== Profile End ======== */
+
+/* ======== Projects Begin ======== */
+/* ======== Projects End ======== */
+
+/* ======== Skills Begin ======== */
+/* ======== Skills End ======== */
+
+/* ======== GitHubCard Begin ======== */
+/* ======== GitHubCard End ======== */
+

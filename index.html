@@ -13,77 +13,78 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <!-- jQuery -->
     <script src="./app/components/jquery/dist/jquery.js"></script>
+    <script src="./app/components/jquery/plugin/jquery.arbitrary-anchor.js"></script>
 </head>
 <body>
     <!-- navigation -->
     <div class="" role="navigation" >
         <div class="">
             <ul class="nav nav-tabs">
-                <li role="presentation"><a href="#">Profile</a></li>
-                <li role="presentation"><a href="#">Project</a></li>
+                <li role="presentation"><a href="#.profile">Profile</a></li>
+                <li role="presentation"><a href="#.projects">Project</a></li>
                 <li role="presentation"><a href="#">Skill</a></li>
-                <li role="presentation"><a href="#">GitHub Card</a></li>
-                <li role="presentation"><a href="#">Contact</a></li>
+                <li role="presentation"><a href="#">OnGitHub</a></li>
             </ul>
         </div>
     </div>
 
-    <h5>------ Weleome to my homepage ------</h5>
-
-    <!-- profile -->
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-offset-3 col-sm-6 borderline">
-			    <div class="modal-header">
-			        <h3>About me</h3>
+
+        <h5>------ WELCOME TO MY HOMEPAGE ------</h5>
+        <!-- profile -->
+        <div class="row profile">
+            <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 border">
+			    <div class="header">
+			        <h3>ABOUT ME</h3>
 			    </div>
                 <div class="modal-body" style="text-align:center;">
                     <div class="row-fluid">
 			            <div class="span10 offset1">
-			                <div id="modalTab">
-			                    <div class="tab-content">
-			                        <div class="tab-pane active" id="about">
-                                        <img src="https://cdn.shopify.com/s/files/1/0051/4802/products/hoodie-1_1024x1024.png?v=1374083661" name="aboutme" width="140" height="140" border="0" class="img-circle" alt="aboutme">
-                                        <h3 class="media-heading">
-                                            <label class="name">Lazy Dever</label>
-                                            <small>USA</small>
-                                        </h3>
-                                        <hr>
-                                        <center>
-                                            <p class="text-left">
-                                                <strong>Bio: </strong><br>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.
-                                            </p>
-                                            <br>
-                                        </center>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="https://cdn.shopify.com/s/files/1/0051/4802/products/hoodie-1_1024x1024.png?v=1374083661" name="aboutme" width="140" height="140" border="0" class="img-circle" alt="aboutme">
+                            <br>
+                            <br>
+                            <h3 class="media-heading">
+                                <label class="name">Lazy Dever</label>
+                                <small>USA</small>
+                            </h3>
+                            <hr>
+                            <center>
+                                <p class="text-left bio">
+                                    <strong>Bio: </strong><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.
+                                </p>
+                            </center>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
 
-    <!-- lastest projects -->
-    <div class="container">
-        <div class="row">
+        <!-- lastest projects -->
+        <div class="row projects">
+            <div class="col-sm-6 col-md-4 project">
+                <div class="thumbnail">
+                    <a href="https://github.com/cmizony/robotic-spider" target="_blank">
+                        <img src="http://cmizony.com/img/portfolio/p6.png" alt="">
+                    </a>
+                    <div class="caption">
+                        <h3>sample1</h3>
+                        <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit:
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- skill -->
-    <div class="container">
+
+        <!-- skill -->
         <div class="row">
+
         </div>
-    </div>
     <!-- github card -->
-    <div class="container">
         <div class="row">
         </div>
-    </div>
     <!-- contact me -->
-    <div class="container">
         <div class="row">
         </div>
     </div>
