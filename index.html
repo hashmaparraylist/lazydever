@@ -33,7 +33,7 @@
         <div class="row profile">
             <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 border">
 			    <div class="header">
-			        <h3 id="name">Seabastian Qu</h3>
+			        <h3 id="name"></h3>
 			    </div>
                 <div class="body" style="text-align:center;">
                     <div class="row-fluid">
@@ -41,26 +41,37 @@
                             <img src="" name="aboutme" width="140" height="140" border="0" class="img-circle" alt="aboutme">
                             <hr>
                             <p class="text-left">
+                                <label>Location: </label>
+                                <span id="location"></span>
+                            </p>
+                            <p class="text-left">
                                 <label>Experience: </label>
-                                <span id="experince">10 years+</span>
+                                <span id="experince"></span>
                             </p>
                             <p class="text-left">
                                 <label>Bio: </label><br>
                                 <span id="bio">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.
                                 </span>
                             </p>
-                            <ul class="status">
-                                <li class="line">
-                                    <a href="https://github.com/cmizony?tab=repositories" target="_top"><strong>10</strong>Repos</a>
-                                </li>
-                                <li class="line">
-                                    <a href="https://gist.github.com/cmizony" target="_top"><strong>7</strong>Gists</a>
+                            <p class="text-left">
+                                <label>GitHub Status</label><br>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>10</strong>Repos
                                 </li>
                                 <li>
-                                    <a href="https://github.com/cmizony/followers" target="_top"><strong>32</strong>Followers</a>
+                                    <strong>7</strong>Gists
+                                </li>
+                                <li>
+                                    <strong>32</strong>Followers
                                 </li>
                             </ul>
+                            <p class="text-left">
+                                <label>Find Me</label><br>
+                            </p>
+                            <div class="contact">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,6 +101,7 @@
     </div>
 </body>
 <!-- jQuery -->
+<script src="./app/components/async/dist/async.js"></script>
 <script src="./app/components/jquery/dist/jquery.js"></script>
 <script src="./app/components/jquery/plugin/jquery.arbitrary-anchor.js"></script>
 <script src="./assets/js/common.js"></script>

@@ -3,6 +3,7 @@ body {
   background-image: url('../img/background.png'); 
 }
 
+/*
 a {
     color:#e5e5e5;
 }
@@ -15,6 +16,7 @@ a:hover {
 a:hover,a:active,a:focus {
   outline: 0;
 }
+*/
 
 /*
 .bg_grey {
@@ -134,6 +136,20 @@ a:hover,a:active,a:focus {
   color: #292f33;
   font-size: 16px;
   line-height: 1.6;
+}
+
+.profile .contact a {
+  color:#000;
+}
+
+.profile .contact a:hover {
+  color:#000;
+  text-decoration:none;
+}
+
+.profile .contact a:hover,a:active,a:focus {
+  color:#000;
+  outline: 0;
 }
 
 /* ======== Profile End ======== */

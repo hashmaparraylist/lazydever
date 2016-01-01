@@ -4,15 +4,15 @@
     "github": "hashmaparraylist",
     "birthday": "1981/11/11",
     "location": "Shanghai, China",
-    "bio": "",
+    "bio": "Hello, world!",
 
     "contact": {
-        "mail": "demo@demo.cn",
-        "site": "www.coding4life.org"
+        "mail": "sebastianqu@gmail.com",
+        "blog": "http://blog.coding4life.org"
     },
     "sns": {
-        "github": "hashmaparraylist",
-        "twitter": "",
-        "weibo":  ""
+        "github": "https://github.com/hashmaparraylist",
+        "twitter": "https://twitter.com/hashmap2k",
+        "weibo":  "https://weibo.cn/hashmaparraylist"
     }
 }
