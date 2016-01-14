@@ -1,3 +1,27 @@
+var app = angular.module('mainApp', []);
+
+app.controller('MainController', function($scope) {
+    $scope.owner = {
+        name: "Sebastian Qu",
+        experience: "10 years+",
+        github: "hashmaparraylist",
+        birthday: "1981/11/11",
+        location: "Shanghai, China",
+        bio: "Hello, world!",
+        contact: {
+            mail: "sebastianqu@gmail.com",
+            blog: "http://blog.coding4life.org"
+        },
+        sns: {
+            github: "https://github.com/hashmaparraylist",
+            twitter: "https://twitter.com/hashmap2k",
+            weibo: "https://weibo.cn/hashmaparraylist"
+        }
+    };
+
+});
+
+/*
 $(document).ready(function() {
     async.waterfall([function(callback) {
         // get onwer info
@@ -44,3 +68,4 @@ $(document).ready(function() {
     }], function(error) {
     });
 });
+*/

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="mainApp">
 <head lang="zh-cn">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,15 @@
     <link href="./app/components/font-awesome/css/font-awesome.css" rel="stylesheet">
     <!-- customize -->
     <link href="./assets/css/style.css" rel="stylesheet">
+    <!-- async -->
+    <script src="./app/components/async/dist/async.js"></script>
+    <!-- jQuery -->
+    <script src="./app/components/jquery/dist/jquery.js"></script>
+    <script src="./app/components/jquery/plugin/jquery.arbitrary-anchor.js"></script>
+    <script src="./app/components/angularjs/angular.js"></script>
+    <script src="./assets/js/common.js"></script>
 </head>
-<body>
+<body ng-controller="MainController">
     <!-- navigation -->
     <div class="" role="navigation" >
         <div class="">
@@ -33,7 +40,7 @@
         <div class="row profile">
             <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 border">
 			    <div class="header">
-			        <h3 id="name"></h3>
+                    <h3>{{owner.name}}</h3>
 			    </div>
                 <div class="body" style="text-align:center;">
                     <div class="row-fluid">
@@ -42,31 +49,30 @@
                             <hr>
                             <p class="text-left">
                                 <label>Location: </label>
-                                <span id="location"></span>
+                                <span>{{owner.location}}</span>
                             </p>
                             <p class="text-left">
                                 <label>Experience: </label>
-                                <span id="experince"></span>
+                                <span>{{owner.experience}}</span>
                             </p>
                             <p class="text-left">
                                 <label>Bio: </label><br>
-                                <span id="bio">
-                                </span>
+                                <span>{{owner.bio}}</span>
                             </p>
                             <p class="text-left">
                                 <label>GitHub Status</label><br>
                             </p>
-                            <ul>
+                            <ol>
                                 <li>
-                                    <strong>10</strong>Repos
+                            <i class="fa fa-users"></i> <strong>32</strong>Followers
                                 </li>
                                 <li>
-                                    <strong>7</strong>Gists
+                            <i class="fa fa-code-fork"></i> <strong>10</strong>Repos
                                 </li>
                                 <li>
-                                    <strong>32</strong>Followers
+                            <i class="fa fa-file-text-o"></i> <strong>7</strong>Gists
                                 </li>
-                            </ul>
+                            </ol>
                             <p class="text-left">
                                 <label>Find Me</label><br>
                             </p>
@@ -100,9 +106,4 @@
         </div>
     </div>
 </body>
-<!-- jQuery -->
-<script src="./app/components/async/dist/async.js"></script>
-<script src="./app/components/jquery/dist/jquery.js"></script>
-<script src="./app/components/jquery/plugin/jquery.arbitrary-anchor.js"></script>
-<script src="./assets/js/common.js"></script>
 </html>
